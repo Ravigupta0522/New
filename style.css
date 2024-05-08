@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS ', 'Lucida Sans Unicode' , 'lucida Grande', 'Lucida Grabde', 'Lucida Sans', Arial, sans-serif; 
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(R.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.348);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://imgv3.fotor.com/images/gallery/cartoon-character-generated-by-Fotor-ai-art-creator.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 300px;
+    width: 220px;
+}
+.rtext{
+    display:flex;
+    width: 25%;
+    align-items:center;
+    justify-content:space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+   min-height: inherit;
+   background-image: url(https://i.pinimg.com/736x/c2/38/da/c238dabd236c2da8a69de5fff02ad454.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: rgba(255, 174, 0, 0.599);
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://th.bing.com/th/id/OIP.V2zYlU_c1vP4syQ_Qf387gHaLH?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://th.bing.com/th/id/R.824566b3e792ce44b2e55921698ac8bc?rik=nOJ30Ve%2bd524tw&riu=http%3a%2f%2fwww.esa.int%2fvar%2fesa%2fstorage%2fimages%2fesa_multimedia%2fimages%2f2013%2f07%2falphasat_slideshow_cover%2f12969068-1-eng-GB%2fAlphasat_slideshow_cover_pillars.jpg&ehk=QOCwP%2f3ucICXDMD%2b%2bdQwMT0ZeGv5j2VUAgFAlg5LbWA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(53, 19, 174, 0.821);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://th.bing.com/th/id/OIP.M_juiQV1iaCVrEij3OXh4QHaHa?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vh 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+
